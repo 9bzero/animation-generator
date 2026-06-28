@@ -1,19 +1,27 @@
-# animation-generator
+# CSS Animation Generator
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-> CSS keyframe animation builder with 8 presets and live preview
+Build CSS keyframe animations visually — configure timing, easing, and properties, then copy the generated code.
 
 ## Features
-- ✨ 8 animation presets: Fade, Slide, Zoom, Spin, Pulse, Shake, Bounce, Flip
-- ⏱️ Duration and delay controls
-- 🔄 Timing function, iteration count, direction
-- 👁️ Live animated preview
-- 📋 Export complete CSS
+
+- Visual keyframe editor with live preview
+- Easing presets: linear, ease-in, ease-out, ease-in-out, cubic-bezier
+- Animate: transform (translate, rotate, scale), opacity, color, background
+- Duration and iteration control (play count / infinite)
+- One-click CSS code copy
+- Export as CSS class or `@keyframes` block
+
+## Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
+
+## Run locally
 
 ```bash
 npm install && npm run dev
 ```
 
-## License
-[MIT](LICENSE)
+---
+Made by [9bzero](https://github.com/9bzero)
